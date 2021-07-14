@@ -37,7 +37,7 @@ POST /code
 ```
 
 返回示例
-```json
+```js
 {
     "code":"5eaa68f4-91e9-457c-9f02-c9b4ed5db234", // key对应的code
     "expire":1625795932, // key过期时间，unix时间戳
@@ -53,7 +53,7 @@ GET /code/5eaa68f4-91e9-457c-9f02-c9b4ed5db234
 ```
 
 返回示例
-```json
+```js
 {
     "key":"2c8dad1f044b644d01260217e563132d5cae95f07ae01d23f1da887df0563a62"
 }
